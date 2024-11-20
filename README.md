@@ -14,10 +14,15 @@ This project focuses on analyzing transactional donation data to identify distin
   - `donor_id`: Unique identifier for each donor.
   - `close_date`: Date of the donation.
   - `donation_amount`: Value of the donation.
+  - donor_id: A unique identifier for each donor. This field helps to track individual donors across multiple donations.
+  - donation_date: The date when the donation was made. Useful for analyzing donation trends over time.
+  - payment_type: The method used for the donation (e.g., Credit Card, Cash). Useful for understanding payment preferences among donors.
+  - donation: The amount donated by the donor in a specific transaction. Important for tracking the financial contribution of each donor.
+  - campaign: The specific fundraising campaign associated with the donation. Useful for analyzing which campaigns are most effective or popular.
   - **Engineered Fields:**
-    - Recency: Days since the last donation.
-    - Frequency: Number of donations in a specific period.
-    - Monetary Value: Total donation amount.
+    - recency: Days since the last donation by donor.
+    - frequency: Number of donations in a specific period by donor.
+    - total_donations: Total donation amount by donor.
 
 ## Technologies Used
 - **Programming Language:** Python
@@ -50,7 +55,7 @@ This project focuses on analyzing transactional donation data to identify distin
 ## How to Run the Project
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/donor-clustering.git
+   git clone https://github.com/jamonhin/Non-profit-project
 
 2. Navegate to the directory:
     ```bash
