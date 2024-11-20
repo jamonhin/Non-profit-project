@@ -51,3 +51,15 @@ This project focuses on analyzing transactional donation data to identify distin
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/donor-clustering.git
+
+2. Navegate to the directory:
+    ```bash
+    cd donor-clustering
+
+3. Install dependencies:
+    ```bash
+    pip install -r requirements.txt
+
+4.	Open the Jupyter Notebook:
+    ```bash
+    jupyter notebook
