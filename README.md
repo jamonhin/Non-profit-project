@@ -56,7 +56,7 @@ This project focuses on analyzing transactional donation data to identify distin
 
 2. Navegate to the directory:
     ```bash
-    cd donor-clustering
+    cd Non-profit-project
 
 3. Install dependencies:
     ```bash
